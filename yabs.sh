@@ -881,7 +881,7 @@ if [ -z "$SKIP_IPERF" ]; then
 	#   4. location and advertised speed link of the iperf server
 	#   5. network modes supported by the iperf server (IPv4 = IPv4-only, IPv4|IPv6 = IPv4 + IPv6, etc.)
 	IPERF_LOCS=( \
- 		"speedtest.novoserve.com" "5201-5201" "NovoServe" "Amsterdam, NL (100G)" "IPv4|IPv6" \
+ 		"speedtest.nl.novoserve.com" "5201-5201" "NovoServe" "Amsterdam, NL (100G)" "IPv4|IPv6" \
 		"a205.speedtest.wobcom.de" "5201-5201" "WOBCOM" "Frankfurt, DE (50G)" "IPv4|IPv6" \
     	"ping.online.net" "5201-5209" "Scaleway" "Paris, FR (100G)" "IPv4" \
     	"ping6.online.net" "5201-5209" "Scaleway" "Paris, FR (100G)" "IPv6" \
@@ -896,7 +896,7 @@ if [ -z "$SKIP_IPERF" ]; then
 	# (Clouvider London, Clouvider NYC, and Online.net France)
 	if [ ! -z "$REDUCE_NET" ]; then
 		IPERF_LOCS=( \
-			"speedtest.novoserve.com" "5201-5201" "NovoServe" "Amsterdam, NL (100G)" "IPv4|IPv6" \
+			"speedtest.nl.novoserve.com" "5201-5201" "NovoServe" "Amsterdam, NL (100G)" "IPv4|IPv6" \
    			"a205.speedtest.wobcom.de" "5201-5201" "WOBCOM" "Frankfurt, DE (50G)" "IPv4|IPv6" \
 		)
 	fi
